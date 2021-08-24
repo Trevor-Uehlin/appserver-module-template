@@ -1,0 +1,15 @@
+
+{
+	"comment": "Module definition file. The name key 'name' should match the name of the module appended to 'appserver-', ex. appserver-directory",
+	"name": "module-template", 
+	"description": "A module wireframe for building out into a functioning module.",
+    "connectedApp":"default",
+	"files": ["Example.php"],
+	"routes": {
+        "module/example":{
+            "callback":"callbackExample",
+            "content-type":"text/html"
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+{
+    "name": "trevor-uehlin/appserver-module-template",
+    "description": "A wireframe of a module that works with the appserver.",
+    "type": "appserver-module",
+    "license": "",
+    "authors": [
+        {
+            "name": "trevor-uehlin",
+            "email": "trevoruehlinx1@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers":"~1.0"
+    }
+}
